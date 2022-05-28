@@ -1,0 +1,45 @@
+body {
+  color: linear-gradient(to right, #FFFFFF, #000000);
+	background: linear-gradient(-45deg, #A4DE02, #00008b);
+}
+
+h1{
+  font-size: 6rem;
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+#MS-Virus {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  background-color: #700000;
+  margin: 0;
+  padding: 0;
+}
+
+#Win11 {
+  float: right;
+}
+
+#watch-shrek {
+	font-family: cursive;
+	color: green;
+}
+
+p, span, label {
+	font-family: Verdana;
+}
+
+h2, a {
+	font-family: 'Courier New';
+  color: #B90E0A;
+}
