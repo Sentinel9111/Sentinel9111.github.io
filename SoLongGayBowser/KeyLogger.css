@@ -33,16 +33,16 @@ p, span, label {
     font-family: Verdana;
 }
 
-.voeten, a {
+.voeten {
     font-family: 'Courier New';
     color: #B90E0A;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 a:hover {
     color: aquamarine;
-    transition: 0.3s ease;
 }
 
 #hr-shrek {
@@ -52,12 +52,13 @@ a:hover {
 .boodschappenlijstje {
     font-family: Verdana;
     color: wheat;
-    width: 20em;
+    width: 40em;
     border: 1px solid #FFFFFF;
     box-shadow: 8px 8px 5px #4444c8;
     padding: 8px 12px;
     background-image: linear-gradient(135deg, #4c00b0, #a000c8 40%, #be2ed6);
     margin: auto;
+    text-align: center;
 }
 
 .inlogformulier {
