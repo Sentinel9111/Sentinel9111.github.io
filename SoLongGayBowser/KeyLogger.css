@@ -1,37 +1,69 @@
 body {
-  color: linear-gradient(to right, #FFFFFF, #000000);
-	background: linear-gradient(-45deg, #A4DE02, #00008b);
+    color: linear-gradient(to right, #FFFFFF, #000000);
+    background: linear-gradient(-45deg, #A4DE02, #00008b);
 }
 
-h1{
-  font-size: 6rem;
-  background: linear-gradient(45deg, #f3ec78, #af4261);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  display: inline-block;
+h1 {
+    font-family: times New Roman;
+    font-weight: bold;
+    font-size: 6rem;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
 }
 
 #MS-Virus {
-  text-align: center;
+    text-align: center;
 }
 
 #Win11 {
-  float: right;
+    float: right;
 }
 
 #watch-shrek {
-	font-family: cursive;
-	color: green;
+    font-family: cursive;
+    color: green;
 }
 
 p, span, label {
-	font-family: Verdana;
+    font-family: Verdana;
 }
 
-h2, a {
-	font-family: 'Courier New';
-  color: #B90E0A;
+.voeten, a {
+    font-family: 'Courier New';
+    color: #B90E0A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: aquamarine;
+    transition: 0.3s ease;
+}
+
+#hr-shrek {
+    color: lightblue;
+}
+
+.boodschappenlijstje {
+    font-family: Verdana;
+    color: wheat;
+    width: 20em;
+    border: 1px solid #FFFFFF;
+    box-shadow: 8px 8px 5px #4444c8;
+    padding: 8px 12px;
+    background-image: linear-gradient(135deg, #4c00b0, #a000c8 40%, #be2ed6);
+    margin: auto;
+}
+
+.inlogformulier {
+    margin-bottom: 20px;
+}
+
+#peter, marquee, .inlogformulier {
+    color: #000000;
 }
